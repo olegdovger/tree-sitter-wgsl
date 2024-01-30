@@ -1,0 +1,19 @@
+================================================================================
+Test
+================================================================================
+
+fn eat_an_i32(my_param : i32) {
+
+}
+
+--------------------------------------------------------------------------------
+
+(source_file
+  (function_declaration
+    (identifier)
+    (parameter_list
+      (parameter
+        (variable_identifier_declaration
+          (identifier)
+          (type_declaration))))
+    (compound_statement)))

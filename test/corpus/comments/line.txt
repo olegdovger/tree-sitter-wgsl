@@ -1,0 +1,23 @@
+================================================================================
+Test
+================================================================================
+// before
+
+fn do_nothing() {
+  // inside
+  return 1;
+}
+
+// after
+--------------------------------------------------------------------------------
+
+(source_file
+  (line_comment)
+  (function_declaration
+    (identifier)
+    (compound_statement
+      (line_comment)
+      (return_statement
+        (const_literal
+          (int_literal)))))
+  (line_comment))

@@ -534,6 +534,29 @@
     }
   },
   {
+    "type": "const_declaration",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "variable_identifier_declaration",
+          "named": true
+        },
+        {
+          "type": "variable_qualifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
     "type": "const_expression",
     "named": true,
     "fields": {},
@@ -1784,6 +1807,10 @@
           "named": true
         },
         {
+          "type": "const_declaration",
+          "named": true
+        },
+        {
           "type": "const_literal",
           "named": true
         },
@@ -2029,6 +2056,10 @@
     "named": false
   },
   {
+    "type": "alias",
+    "named": false
+  },
+  {
     "type": "array",
     "named": false
   },
@@ -2050,6 +2081,10 @@
   },
   {
     "type": "case",
+    "named": false
+  },
+  {
+    "type": "const",
     "named": false
   },
   {
@@ -2342,10 +2377,6 @@
   },
   {
     "type": "true",
-    "named": false
-  },
-  {
-    "type": "type",
     "named": false
   },
   {
